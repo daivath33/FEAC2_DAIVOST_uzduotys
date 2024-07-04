@@ -1,0 +1,39 @@
+.card {
+  width: 160px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background-color: $primary_100;
+  border-radius: 0.5rem;
+
+  .name {
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    color: $primary_600;
+    font-weight: 500;
+  }
+
+  &:hover {
+    background-color: $primary_50;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+}
+
+.container {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  @media only screen and (min-width: 400px) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  @media only screen and (min-width: 768px) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  @media only screen and (min-width: 1200px) {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+}
