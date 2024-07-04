@@ -1,0 +1,10 @@
+.todosInfo {
+    margin: 1px ;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 460px;
+    align-items: center;
+    border: 3px red solid;
+  }
