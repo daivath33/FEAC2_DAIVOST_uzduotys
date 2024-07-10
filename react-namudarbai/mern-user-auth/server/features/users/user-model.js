@@ -21,6 +21,11 @@ userSchema.pre("save", async function (next) {
   next();
 });
 
+userSchema.pre('find', function(next) {
+  this.select('-password');
+  next();
+});
+
 userSchema.methods.isCorrectPassword = function (password) {
   const isValid = bcrypt.compareSync(password, this.password);
   return isValid;
