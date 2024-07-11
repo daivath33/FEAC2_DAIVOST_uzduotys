@@ -17,20 +17,22 @@ a:hover {
 
 body {
   margin: 0;
-
   min-width: 320px;
   min-height: 100vh;
 }
+
 .container{
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 }
+
 .greeting{
   text-transform: capitalize;
   color: rgb(74, 40, 187);
 }
+
 .userProfile{
   margin: 20px 0;
   display: flex;
