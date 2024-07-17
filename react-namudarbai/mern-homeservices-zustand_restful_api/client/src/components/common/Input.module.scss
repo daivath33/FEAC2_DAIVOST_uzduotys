@@ -1,0 +1,50 @@
+.container {
+  width: 100%;
+
+  input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #d1d1d4;
+    background: none;
+    padding: 10px;
+    padding-left: 24px;
+    font-weight: 700;
+
+    transition: 0.2s;
+
+    &:active,
+    &:focus,
+    &:hover {
+      outline: none;
+      border-bottom-color: #6a679e;
+    }
+    &::placeholder {
+      color: #c1c4cc;
+      font-size: 14px;
+      font-weight: 600;
+    }
+  }
+  label {
+    font-size: 14px;
+    color: #7d7e81;
+    font-weight: 600;
+  }
+}
+
+
+.input_box {
+  padding: 10px 0px 0px;
+  position: relative;
+}
+.icon {
+  position: absolute;
+  top: 20px;
+  font-weight: 800;
+}
+.error {
+  color: #fb7185;
+  font-size: 13px;
+  height: 20px;
+  width: 100%;
+  font-weight: 500;
+}
