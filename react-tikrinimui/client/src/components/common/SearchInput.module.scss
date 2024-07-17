@@ -1,0 +1,14 @@
+.searchInput {
+  width: 100%;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border: 2px solid $border;
+  border-radius: 30px;
+  &::placeholder {
+    color: #c5c7cf;
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
+
+
