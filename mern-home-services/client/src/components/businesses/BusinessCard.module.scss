@@ -1,0 +1,64 @@
+.card {
+  position: relative;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  width: 250px;
+
+  &:hover {
+    transform: scale(1.03);
+    box-shadow: $shadow_primary;
+  }
+.liked{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: $accent_500;
+}
+  .image {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+  }
+  .category {
+    padding: 5px 10px;
+    background-color: $accent_100;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 30px;
+    color: $primary_500;
+    text-transform: capitalize;
+  }
+  .title {
+    font-weight: bold;
+    font-size: 20px;
+    color: $gray-950;
+  }
+  .master {
+    font-weight: 600;
+    font-size: 16px;
+    color: $primary_500;
+  }
+  .address {
+    font-weight: 600;
+    color: $gray-400;
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+  .btn {
+    padding: 0.75rem 1rem;
+    font-size: 14px;
+  }
+}

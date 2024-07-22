@@ -1,0 +1,28 @@
+.button {
+  padding: 1rem 1.5rem;
+  background-color: $primary_500;
+  color: $white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+
+  &:hover {
+    background-color: $primary_700;
+    transition: all 0.3s ease-out;
+  }
+}
+
+.rounded {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

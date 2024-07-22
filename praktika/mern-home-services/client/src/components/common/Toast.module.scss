@@ -1,0 +1,25 @@
+.toast{
+    position: fixed;
+    top: 100px;
+    right: 0px;
+    border-radius: 5px;
+    background-color: $primary-600;
+    color: $white;
+    height: 100px;
+    width: 395px;
+    font-size: 20px;
+    font-weight: 600;
+    z-index: 999;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+}
+.success{
+    background-color: $primary-600; 
+}
+.error{
+    background-color: red;
+}
+.container{
+   
+}
